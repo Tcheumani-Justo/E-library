@@ -1,0 +1,213 @@
+:root{
+    --pinkcolor:#0faaec;
+    --background:#fff;
+    --textcolor:#4ad489;
+    --logo-color:#73b9e4;
+    
+}
+body{
+    background: url(../img/library-with-books.jpg);
+    background-size: contain;
+}
+/* .bar{
+    
+    height: 60px;
+
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 80px;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.86);
+    z-index: 999;
+    position: sticky;
+    top: 4px;
+    left: 0;
+ }
+ .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+.navbar li{
+    list-style: none;
+    padding: 0 5px;
+    position: relative;
+}
+.navbar li a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--back-color);
+    transition: 0.3s ease;
+} 
+
+.navbar li a:hover,
+.navbar li a.active{
+    color: var(--cto-color);
+}
+.navbar li a.active::after,
+.navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: var(--cto-color);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+} */
+
+
+
+/* .background{
+    margin: 100px;
+    
+    background-color: var(--back-color);
+    width: 800px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.title{
+    display: flex;
+    height: 90px;
+    background: var(--title-color);
+    align-items: center;
+} */ 
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--back-color);
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 100vh;
+    margin: 0;
+}
+.one{
+    color: var(--cto-color);
+
+}
+.two{
+    color:#06b63c;
+}
+.container {
+    
+    background-color: white;
+    width: 800px;
+    height: 450px;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+/* Registration form container */
+.container1 {
+    margin-top: 30px;
+    top: 50px;
+    margin-left: 140px;
+    background-color: white;
+    width: 800px;
+    height: 470px;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+
+.login-box {
+    display: flex;
+    width: 100%;
+}
+
+.image-container {
+    width: 50%;
+}
+
+.image-container, img {
+    width: 85%;
+    height: 85%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    object-fit: cover;
+}
+
+.form-container {
+    width: 70%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    color: var(--logo-color);
+    font-weight: 600;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: var(--logo-color);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: var(--pinkcolor);
+}
+
+.forgot-password, .register {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    color: #666;
+    text-decoration: none;
+}
+
+.forgot-password:hover, .register:hover {
+    color: #333;
+}
+
+.terms {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.terms a {
+    color: #666;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.terms a:hover {
+    color: #333;
+}
+.lib{
+    width: fit-content;
+    height: fit-content;
+    padding-top: 120px;
+    padding-left: 10px;
+}

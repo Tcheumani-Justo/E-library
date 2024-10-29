@@ -1,0 +1,89 @@
+:root{
+    --pinkcolor:#0faaec;
+    --background:#cae9f8;
+    --textcolor:#ffffff;
+    --logo-color:#73b9e4;
+    
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+.bar{
+    
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 28px 80px;
+        background: var(--background);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.86);
+        z-index: 999;
+        position: sticky;
+        top: 0;
+        left: 0;
+     }
+.navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+    .navbar li{
+        list-style: none;
+        padding: 0 15px;
+        position: relative;
+    }
+    .navbar li a{
+        text-decoration: none;
+        font-size: 22px;
+        font-weight: 600;
+        color: var(--textcolor);
+        transition: 0.3s ease;
+    } 
+    /* .navbar li a:hover{
+        color: #0f645d;
+    } */
+    .navbar li a:hover,
+    .navbar li a.active{
+        color: var(--pinkcolor);
+    }
+    .navbar li a.active::after,
+    .navbar li a:hover::after{
+        content: "";
+        width: 30%;
+        height: 2px;
+        background: var(--logo-color);
+        position: absolute;
+        bottom: -4px;
+        left: 20px;
+    }
+    .navbar li select{
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 300;
+        color: var(--logo-color);
+    } .navbar li select:hover{
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 600;
+        color: var(--pinkcolor);
+        transition: 0.3s ease;
+    } 
+    .navbar li label{
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 600;
+        color: var(--textcolor);
+    } 
+.lib{
+        height: 70px;
+        width: 70px;
+    }
+.Homepage{
+    background: var(--background);
+    height: 400px;
+}
+.NewBanner{
+    height: 200px;
+}
